@@ -101,7 +101,7 @@ form button{
 }
 
 form button:hover{
-    background: #f5f8fa;
+    background: #f5f8fa00;
     border: 1px solid #0d6eff;
     color: #0d6eff82;
 }
@@ -131,6 +131,7 @@ input::placeholder {
 }
 
 .right .post-simulation {
+    
     width: 100%;
     height: 100%;
     position: relative;
@@ -144,50 +145,56 @@ input::placeholder {
 }
 
 .right .post-simulation h3{
-    color: #202d37;
+    color: #4094d4;
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
 .right .post-simulation h3 span{
-    color: #1c9882;
+    color: #00fbff;
     font-weight: 600;
     font-size: 24px;
 }
 
 .right .total{
-    background: #1c988259;
+    background: rgba(25, 141, 219, 0.182);
     padding: 30px;
 }
 
 .right .total h4{
     font-size: 28px;
+    color: #f3f3f3;
 }
 
 .right .total h2{
     font-size: 36px;
     padding: 14px 0;
+    color: #00fbff;
 }
 
 .total p{
     font-weight: 400;
+    color: #ffffff;
 }
 
 .total p span{
     font-weight: 600;
+    color: #ffffff;
 }
 
 .notificacion{
     padding: 20px;
-    border: 1px solid #1c9882;
+    border: 1px solid #0d6eff;
     margin-top: 40px;
 }
 
 .notificacion h5{
     font-weight: 400;
+    color: #fff;
 }
 
 .notificacion h5 span{
     font-weight: 700;
+    color: #0d6eff;
 }
