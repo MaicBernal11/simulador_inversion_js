@@ -11,6 +11,7 @@
 }
 
 #simulator{
+    background: #011833;
     width: 100%;
     max-width: 1300px;
     padding: 50px 60px;
@@ -22,7 +23,7 @@
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #0d6eff;
     text-align: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #7a93ab;
@@ -40,7 +41,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #4094d4;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -48,7 +49,7 @@ h2{
 
 .left p{
     margin-bottom: 30px;
-    color: #2f3c46;
+    color: #ffffff;
 }
 
 form{
@@ -79,7 +80,7 @@ form{
 .group-data label{ 
     display: block;
     margin-bottom: 10px;
-    color: #202d37;
+    color: #ffffff;
 }
 .group-data input,
 .group-data select{
@@ -92,28 +93,28 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
+    background: #0d6eff;
     color: #fff;
-    border: 1px solid #1c9882;
+    border: 1px solid #0d6eff;
     transition: .4s;
     cursor: pointer;
 }
 
 form button:hover{
     background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    border: 1px solid #0d6eff;
+    color: #0d6eff82;
 }
 
 input, select{
     padding: 14px 30px;
-    background: #f5f8fa;
+    background: rgba(25, 141, 219, 0.182);
     border: 0;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #0d6eff;
     outline: none;
 }
 input::placeholder {
-    color: #000; /* Cambia este valor al color que desees */
+    color: #98e1f4; /* Cambia este valor al color que desees */
 }
 
 .right .pre-simulation{
