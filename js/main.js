@@ -28,6 +28,16 @@ function simulador() {
     let ganancia = 0;
     let total = 0;
 
+
+    if (cNombres =="" || cEmail == "") {
+
+        alert("Llene todos los campos porfavor");
+        
+    }
+    else{
+
+    }
+
     switch (cTiempo) {
         case "1":
             //EN ESTE CASE REALIZAREMOS EL CALCULO SI EL TIEMPO CORRESPONDE A 1 AÑO
