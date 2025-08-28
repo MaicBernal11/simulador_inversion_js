@@ -4,8 +4,9 @@ function simulador() {
     const contPre = document.getElementById("pre-simulation");
     const contPost = document.getElementById("post-simulation");
 
-    contPost.classList.remove("disabled");
-    contPre.classList.add("disabled");
+
+
+
 
 
     //VARIABLES QUE CAPTURAN LOS VALORES DE LOS CAMPOS
@@ -29,13 +30,14 @@ function simulador() {
     let total = 0;
 
 
-    if (cNombres =="" || cEmail == "") {
+    if (cNombres == "" || cEmail == "" || cMonto == "" || cTiempo == "") {
 
         alert("Llene todos los campos porfavor");
-        
-    }
-    else{
 
+    }
+    else {
+        contPost.classList.remove("disabled");
+        contPre.classList.add("disabled");
     }
 
     switch (cTiempo) {
